@@ -1,0 +1,23 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: user-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to shophub user related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@amdbank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
