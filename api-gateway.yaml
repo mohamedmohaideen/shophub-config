@@ -15,9 +15,7 @@ build:
 
 accounts:
   message: "Welcome to shophub api-gateway related local APIs "
-  contactDetails:
-    name: "John Doe - Developer"
-    email: "john@amdbank.com"
+  
   onCallSupport:
     - (555) 555-1234
     - (555) 523-1345
